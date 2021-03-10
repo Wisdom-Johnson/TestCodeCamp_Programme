@@ -1,0 +1,211 @@
+{
+  "id": "30f74f52-4efe-433f-aabb-0f6e13f53e18",
+  "version": "2.0",
+  "name": "Deydam",
+  "url": "https://dev.d2rxvhrryr2bkn.amplifyapp.com",
+  "tests": [{
+    "id": "1bca2e8d-29c8-4896-b4b0-2375d940aac1",
+    "name": "Deydam",
+    "commands": [{
+      "id": "dedf1660-98e6-4c54-a399-0d59ba054cb2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c67ddfb-221f-4156-a053-6716d6e9a990",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7810832-aaa2-433e-a2f0-5309b7774e87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Started",
+      "targets": [
+        ["linkText=Get Started", "linkText"],
+        ["css=.btnadd", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div/nav/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signup')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7bb595c-04bf-486f-ac3e-17836011d18a",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8417f9d2-e8c7-4713-a8bf-aceae73d7941",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Wayforward "
+    }, {
+      "id": "705bff72-2aca-4cc7-8118-0e8ada1ac551",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c15d1c-4bcd-4dfe-ad78-9b60e20568b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "talk2johnsonwisdom@gmail.com"
+    }, {
+      "id": "3f95990d-fb73-4942-ba38-a87ac0b19abf",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35aafd50-835f-4924-99c6-8bc1e4beb97b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty12"
+    }, {
+      "id": "bc56eefd-cdec-44e2-aad2-6e9202fa3184",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty12"
+    }, {
+      "id": "3d532b3d-254b-4311-9071-7d986b33b294",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa1b429-e33d-472d-b794-58715dcdb249",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lnr",
+      "targets": [
+        ["css=.lnr", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cdb3d9c-3845-48f5-b07c-7572ec05a824",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae9b814e-e262-4fe6-bece-85716c3f594a",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wayforward_100"
+    }, {
+      "id": "9a176cac-58c7-4aee-badb-190a0b166c64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1335380-db44-4190-b667-80053debab15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1bca2e8d-29c8-4896-b4b0-2375d940aac1"]
+  }],
+  "urls": ["https://dev.d2rxvhrryr2bkn.amplifyapp.com/"],
+  "plugins": []
+}
