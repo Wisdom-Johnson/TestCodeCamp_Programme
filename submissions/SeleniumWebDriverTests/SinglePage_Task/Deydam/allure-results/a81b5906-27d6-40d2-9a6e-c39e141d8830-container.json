@@ -1,1 +1,0 @@
-{"uuid":"a81b5906-27d6-40d2-9a6e-c39e141d8830","name":"Deydam_Login","children":["2f7afdca-c21a-4072-9175-09141f766e98"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1615246189477,"stop":1615246191434}],"links":[],"start":1615246143018,"stop":1615246191436}
