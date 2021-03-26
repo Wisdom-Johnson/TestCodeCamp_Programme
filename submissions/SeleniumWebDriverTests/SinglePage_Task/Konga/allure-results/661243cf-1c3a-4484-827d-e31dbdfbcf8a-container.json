@@ -1,1 +1,0 @@
-{"uuid":"661243cf-1c3a-4484-827d-e31dbdfbcf8a","name":"Konga","children":["5d6beac4-610d-49f5-a47e-19c1d7f5080f"],"befores":[],"afters":[{"name":"EndBrowser","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1616664625382,"stop":1616664625382}],"links":[],"start":1616664597266,"stop":1616664625385}
